@@ -1,0 +1,21 @@
+﻿@model Green_Egg_Quiz.ViewModels.QuizViewModel
+
+<h2>Answer questions below to test mountain knowledge</h2>
+
+
+@foreach (var question in Model.Questions)
+            {
+                <div style="margin-bottom:30px;">
+                    <p style="font-weight:bold">@question.Question</p>
+
+                    <fieldset id="@question.Id">
+                        <span style="padding: 0 5px"><input type="radio" value="1" name="@question.Id"> @question.Answer1</span>
+                        <br />
+                        <span style="padding: 0 5px"><input type="radio" value="2" name="@question.Id"> @question.Answer2</span>
+                        <br />
+                        <span style="padding: 0 5px"><input type="radio" value="3" name="@question.Id"> @question.Answer3</span>
+                    </fieldset>
+                </div>
+            }
+
+<button onclick="GetAnswers()">Check Answers</button>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Green Egg Quiz", "Green Egg Quiz.csproj", "{18A719B0-90A9-4872-96F6-32496646BB67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18A719B0-90A9-4872-96F6-32496646BB67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A719B0-90A9-4872-96F6-32496646BB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A719B0-90A9-4872-96F6-32496646BB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A719B0-90A9-4872-96F6-32496646BB67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34FBEAE0-4491-4B67-AFE1-0122B9AAFD27}
+	EndGlobalSection
+EndGlobal
